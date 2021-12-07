@@ -1,0 +1,75 @@
+/* Resiter.html styles */
+main{
+    background-color: white;
+}
+main .container{
+    background-color: var(--light-gray);
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+main .container div {
+    padding: 10px;
+    min-width: 30%;
+    font-family: Roboto;
+    border: none;
+    border-radius: 10px;
+}
+
+main .container div input{
+    font-family: Roboto;
+    border: none;
+    border-radius: 5px;
+}
+
+main .container .send input{
+    background-color: var(--light-blue);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 50px;
+}
+
+main .container .send input:hover {
+    background-color: var(--purple);
+}
+
+main .container .reset input{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 40px;
+}
+
+main .container .reset input:hover{
+    background-color: var(--dark-gray);
+}
+main .interest{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 361px){
+    main .container{
+        background-color: var(--light-gray);
+        width: 100%;
+        
+    }
+}
+
+@media (min-width: 361px) and (max-width: 769px){
+    main .container{
+        background-color: var(--light-gray);
+        width: 80%;
+        
+    }
+}
+
+@media (min-width: 769px) {
+
+}
